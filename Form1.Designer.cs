@@ -30,10 +30,10 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.frm = new System.Windows.Forms.ToolStripMenuItem();
             this.algoritmo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.algoritmo2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.algoritmo3TabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.frm = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,13 +59,6 @@
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
             // 
-            // frm
-            // 
-            this.frm.Name = "frm";
-            this.frm.Size = new System.Drawing.Size(38, 20);
-            this.frm.Text = "Sair";
-            this.frm.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
             // algoritmo1ToolStripMenuItem
             // 
             this.algoritmo1ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -88,10 +81,18 @@
             this.algoritmo3TabuadaToolStripMenuItem.Text = "Algoritmo 3 Tabuada";
             this.algoritmo3TabuadaToolStripMenuItem.Click += new System.EventHandler(this.algoritmo3TabuadaToolStripMenuItem_Click);
             // 
+            // frm
+            // 
+            this.frm.Name = "frm";
+            this.frm.Size = new System.Drawing.Size(38, 20);
+            this.frm.Text = "Sair";
+            this.frm.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(667, 519);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
