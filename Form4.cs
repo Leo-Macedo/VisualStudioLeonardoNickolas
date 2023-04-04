@@ -65,6 +65,9 @@ namespace Leonardo___Nickolas
 
         private void btnlimpar_Click(object sender, EventArgs e)
         {
+
+
+        //leo
             txtx.Clear();
             txtr.Clear();
             txtx.Focus();
