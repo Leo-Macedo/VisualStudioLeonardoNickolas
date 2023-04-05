@@ -31,4 +31,16 @@ O "encerrar" é utilizado para finalizar a votação e determinar o vencedor. Ne
 O "limpar" serve para apagar o conteúdo das textbox e zerar as variáveis. Como as variáveis são globais, elas continuam com o valor que tinham antes.<br>
 O botão "voltar" tem a mesma função do botão "voltar" do Form2.
 
+# Tabuada (Form4)
+## O que faz?
+Este projeto realiza a tabuada de qualquer número, começando do 0 e terminando no 10. Foram utilizados 3 comandos de loop: "while", "for" e "do...while", todos realizando a mesma operação.
+## Como Fizemos?
+### Design
+Foi adicionada uma label para perguntar qual o número que se deseja a tabuada e uma textbox para receber o número digitado.<br> Também foi adicionada outra label para mostrar o resultado. A textbox tem um scroll para baixo para exibir todos os resultados.
+### Comando While
+Este comando serve para repetir os comandos dentro dele enquanto a condição for verdadeira.
+### Comando For
+Este comando de looping também foi utilizado, onde a variável "i" tem seu valor definido na condição do for e é incrementada a cada repetição (no caso, somando 1).
+### Comando Do...While
+Este comando é um pouco diferente, pois ele repete os comandos dentro dele pelo menos uma vez e a condição vem ao final do comando. E a condição no final, funciona de forma similar ao comando while.
 
