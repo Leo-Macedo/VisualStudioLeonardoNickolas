@@ -24,6 +24,11 @@ namespace Leonardo___Nickolas
             txtv.Focus();
         }
 
+        private void lblv_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnvoltar_Click(object sender, EventArgs e)
         {
             this.Hide();

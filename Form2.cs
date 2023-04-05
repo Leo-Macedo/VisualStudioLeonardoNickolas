@@ -73,5 +73,10 @@ namespace Leonardo___Nickolas
             frmmenu fm = new frmmenu();
             fm.Show();
         }
+
+        private void frm2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -39,18 +39,21 @@
             // 
             // txtv
             // 
-            this.txtv.Location = new System.Drawing.Point(452, 74);
-            this.txtv.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.txtv.Font = new System.Drawing.Font("Verdana", 8.75F);
+            this.txtv.Location = new System.Drawing.Point(534, 101);
+            this.txtv.Margin = new System.Windows.Forms.Padding(7, 4, 7, 4);
             this.txtv.Name = "txtv";
-            this.txtv.Size = new System.Drawing.Size(139, 20);
+            this.txtv.Size = new System.Drawing.Size(184, 22);
             this.txtv.TabIndex = 4;
             this.txtv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnvotar
             // 
-            this.btnvotar.Location = new System.Drawing.Point(323, 106);
+            this.btnvotar.Font = new System.Drawing.Font("Verdana", 8.75F);
+            this.btnvotar.Location = new System.Drawing.Point(212, 167);
+            this.btnvotar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnvotar.Name = "btnvotar";
-            this.btnvotar.Size = new System.Drawing.Size(75, 23);
+            this.btnvotar.Size = new System.Drawing.Size(100, 28);
             this.btnvotar.TabIndex = 5;
             this.btnvotar.Text = "Vote";
             this.btnvotar.UseVisualStyleBackColor = true;
@@ -59,17 +62,22 @@
             // lblv
             // 
             this.lblv.AutoSize = true;
-            this.lblv.Location = new System.Drawing.Point(82, 77);
+            this.lblv.Font = new System.Drawing.Font("Verdana", 8.75F);
+            this.lblv.Location = new System.Drawing.Point(86, 101);
+            this.lblv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblv.Name = "lblv";
-            this.lblv.Size = new System.Drawing.Size(316, 13);
+            this.lblv.Size = new System.Drawing.Size(409, 14);
             this.lblv.TabIndex = 6;
             this.lblv.Text = "Votar.1 = José da Silva, 2 = Maria Juruma e 3 = João da Tapioca.";
+            this.lblv.Click += new System.EventHandler(this.lblv_Click);
             // 
             // btnencerrar
             // 
-            this.btnencerrar.Location = new System.Drawing.Point(323, 154);
+            this.btnencerrar.Font = new System.Drawing.Font("Verdana", 8.75F);
+            this.btnencerrar.Location = new System.Drawing.Point(442, 167);
+            this.btnencerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnencerrar.Name = "btnencerrar";
-            this.btnencerrar.Size = new System.Drawing.Size(75, 23);
+            this.btnencerrar.Size = new System.Drawing.Size(100, 28);
             this.btnencerrar.TabIndex = 7;
             this.btnencerrar.Text = "Encerrar";
             this.btnencerrar.UseVisualStyleBackColor = true;
@@ -77,18 +85,21 @@
             // 
             // txtr
             // 
-            this.txtr.Location = new System.Drawing.Point(85, 202);
-            this.txtr.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.txtr.Font = new System.Drawing.Font("Verdana", 8.75F);
+            this.txtr.Location = new System.Drawing.Point(89, 262);
+            this.txtr.Margin = new System.Windows.Forms.Padding(7, 4, 7, 4);
             this.txtr.Name = "txtr";
-            this.txtr.Size = new System.Drawing.Size(506, 20);
+            this.txtr.Size = new System.Drawing.Size(629, 22);
             this.txtr.TabIndex = 8;
             this.txtr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnr
             // 
-            this.btnr.Location = new System.Drawing.Point(323, 246);
+            this.btnr.Font = new System.Drawing.Font("Verdana", 8.75F);
+            this.btnr.Location = new System.Drawing.Point(212, 337);
+            this.btnr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnr.Name = "btnr";
-            this.btnr.Size = new System.Drawing.Size(75, 23);
+            this.btnr.Size = new System.Drawing.Size(100, 28);
             this.btnr.TabIndex = 9;
             this.btnr.Text = "Reiniciar";
             this.btnr.UseVisualStyleBackColor = true;
@@ -96,10 +107,11 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(516, 246);
-            this.btnvoltar.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnvoltar.Font = new System.Drawing.Font("Verdana", 8.75F);
+            this.btnvoltar.Location = new System.Drawing.Point(442, 337);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(7, 4, 7, 4);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.Size = new System.Drawing.Size(100, 28);
             this.btnvoltar.TabIndex = 10;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
@@ -107,9 +119,10 @@
             // 
             // frm3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnr);
             this.Controls.Add(this.txtr);
@@ -117,6 +130,8 @@
             this.Controls.Add(this.lblv);
             this.Controls.Add(this.btnvotar);
             this.Controls.Add(this.txtv);
+            this.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frm3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Votação";

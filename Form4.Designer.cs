@@ -41,9 +41,10 @@
             // 
             // btnw
             // 
-            this.btnw.Location = new System.Drawing.Point(142, 273);
+            this.btnw.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnw.Location = new System.Drawing.Point(308, 264);
             this.btnw.Name = "btnw";
-            this.btnw.Size = new System.Drawing.Size(113, 23);
+            this.btnw.Size = new System.Drawing.Size(166, 23);
             this.btnw.TabIndex = 0;
             this.btnw.Text = "Calcular while";
             this.btnw.UseVisualStyleBackColor = true;
@@ -51,43 +52,48 @@
             // 
             // txtx
             // 
-            this.txtx.Location = new System.Drawing.Point(340, 98);
+            this.txtx.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtx.Location = new System.Drawing.Point(482, 86);
             this.txtx.Name = "txtx";
-            this.txtx.Size = new System.Drawing.Size(100, 20);
+            this.txtx.Size = new System.Drawing.Size(100, 23);
             this.txtx.TabIndex = 1;
             // 
             // lblx
             // 
             this.lblx.AutoSize = true;
-            this.lblx.Location = new System.Drawing.Point(139, 98);
+            this.lblx.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblx.Location = new System.Drawing.Point(174, 89);
             this.lblx.Name = "lblx";
-            this.lblx.Size = new System.Drawing.Size(175, 13);
+            this.lblx.Size = new System.Drawing.Size(239, 16);
             this.lblx.TabIndex = 2;
             this.lblx.Text = "Qual número você quer a tabuada?";
             // 
             // lblr
             // 
             this.lblr.AutoSize = true;
-            this.lblr.Location = new System.Drawing.Point(139, 138);
+            this.lblr.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblr.Location = new System.Drawing.Point(174, 129);
             this.lblr.Name = "lblr";
-            this.lblr.Size = new System.Drawing.Size(55, 13);
+            this.lblr.Size = new System.Drawing.Size(71, 16);
             this.lblr.TabIndex = 3;
             this.lblr.Text = "Resultado";
             // 
             // txtr
             // 
-            this.txtr.Location = new System.Drawing.Point(200, 138);
+            this.txtr.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtr.Location = new System.Drawing.Point(308, 129);
             this.txtr.Multiline = true;
             this.txtr.Name = "txtr";
             this.txtr.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtr.Size = new System.Drawing.Size(85, 58);
+            this.txtr.Size = new System.Drawing.Size(85, 107);
             this.txtr.TabIndex = 4;
             // 
             // btnfor
             // 
-            this.btnfor.Location = new System.Drawing.Point(308, 273);
+            this.btnfor.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnfor.Location = new System.Drawing.Point(510, 264);
             this.btnfor.Name = "btnfor";
-            this.btnfor.Size = new System.Drawing.Size(113, 23);
+            this.btnfor.Size = new System.Drawing.Size(166, 23);
             this.btnfor.TabIndex = 5;
             this.btnfor.Text = "Calcular For";
             this.btnfor.UseVisualStyleBackColor = true;
@@ -95,9 +101,10 @@
             // 
             // btndowhile
             // 
-            this.btndowhile.Location = new System.Drawing.Point(475, 273);
+            this.btndowhile.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndowhile.Location = new System.Drawing.Point(112, 264);
             this.btndowhile.Name = "btndowhile";
-            this.btndowhile.Size = new System.Drawing.Size(113, 23);
+            this.btndowhile.Size = new System.Drawing.Size(166, 23);
             this.btndowhile.TabIndex = 6;
             this.btndowhile.Text = "Calcular Do...While";
             this.btndowhile.UseVisualStyleBackColor = true;
@@ -105,9 +112,10 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(391, 366);
+            this.btnvoltar.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Location = new System.Drawing.Point(177, 357);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(113, 23);
+            this.btnvoltar.Size = new System.Drawing.Size(166, 23);
             this.btnvoltar.TabIndex = 7;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
@@ -115,9 +123,10 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(215, 366);
+            this.btnlimpar.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Location = new System.Drawing.Point(444, 357);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(113, 23);
+            this.btnlimpar.Size = new System.Drawing.Size(166, 23);
             this.btnlimpar.TabIndex = 8;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
@@ -127,7 +136,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btndowhile);

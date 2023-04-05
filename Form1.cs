@@ -42,5 +42,10 @@ namespace Leonardo___Nickolas
             frm4 fm = new frm4();
             fm.Show();
         }
+
+        private void programasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
